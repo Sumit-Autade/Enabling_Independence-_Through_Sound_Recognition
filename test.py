@@ -9,6 +9,7 @@ from gtts import gTTS
 import os
 from twilio.rest import Client
 import sounddevice as sd
+import pyaudio
 
 # Function to load the model
 @st.cache_resource()
